@@ -1,0 +1,27 @@
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #073b4c;
+    color: white;
+    font-weight: 800;
+    #links {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        a {
+            margin-left: 2vh;
+            align-self: center;
+            color: white;
+            font-weight: 800;
+        }
+    }
+    #logo {
+        margin-right: 2vh;
+    }
+}
+
+a {
+    text-decoration: none;
+}

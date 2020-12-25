@@ -1,0 +1,18 @@
+.movie {
+    position: relative;
+    margin: 1vh;
+    .svg-inline--fa {
+        width: 3vh;
+        position: relative;
+        left: 21vh;
+        bottom: 29vh;
+    }
+    .movie-img {
+        height: 30vh;
+        width: 25vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 5px;
+    }
+}

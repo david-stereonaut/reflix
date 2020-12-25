@@ -1,0 +1,14 @@
+#movie-details {
+    margin: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .movie-details-img {
+        height: 50vh;
+        width: 45vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 5px;
+    }
+}

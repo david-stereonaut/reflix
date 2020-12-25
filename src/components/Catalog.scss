@@ -1,0 +1,32 @@
+#for-rent {
+    margin: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#rented {
+    margin: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    hr {
+        flex-basis: 100%;
+        border: 1px solid #BAD29F;
+    }
+}
+
+#search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2vh;
+}
+
+.not-found {
+    text-align: center;
+    margin: 6vh;
+    font-weight: 600;
+}
